@@ -1,0 +1,2668 @@
+{
+  "chain": {
+    "total_revenue": 8656692.49,
+    "instore_revenue": 6232705.84,
+    "app_revenue": 992623.74,
+    "delivery_revenue": 1431362.91,
+    "total_labour": 2574117.21,
+    "total_rent": 1423550.0,
+    "total_rates": 313181.0,
+    "total_utilities": 214052.71,
+    "total_repairs": 110705.48,
+    "total_other_opex": 111014.77,
+    "total_cogs": 2372799.39,
+    "total_delivery_commission": 421336.75,
+    "total_delivery_packaging": 50169.15,
+    "total_delivery_costs": 471505.9,
+    "total_expenses": 7590926.47,
+    "total_profit": 1065766.02,
+    "overall_margin": 12.31,
+    "total_waste_cost": 133814.91,
+    "total_orders": 1422905,
+    "store_count": 12
+  },
+  "stores": [
+    {
+      "store_id": "S01",
+      "store_name": "Sheffield Division Street",
+      "city": "Sheffield",
+      "format": "Standard",
+      "location_type": "High street",
+      "opened_date": "2018-04-12",
+      "sqft": 1450,
+      "seats": 38,
+      "rent_gbp_month": 6200.0,
+      "store_manager": "Priya Natt",
+      "refit_year": "2023.0",
+      "status": "Performing Well",
+      "status_color": "emerald",
+      "sales": {
+        "instore": 545603.05,
+        "app": 84500.45,
+        "delivery": 128507.28,
+        "total": 758610.78
+      },
+      "orders": {
+        "instore": 98409,
+        "app": 15320,
+        "delivery": 10140,
+        "total": 123869
+      },
+      "costs": {
+        "labour": 222481.29,
+        "rent": 74400.0,
+        "rates": 16368.0,
+        "utilities": 18760.78,
+        "repairs": 7050.7,
+        "other_opex": 9527.85,
+        "fixed_total": 126107.33,
+        "cogs_ingredients": 207935.21,
+        "delivery_commission": 37869.05,
+        "delivery_packaging": 4563.0,
+        "delivery_total": 42432.05,
+        "total_expenses": 598955.89
+      },
+      "profit": 159654.89,
+      "margin": 21.05,
+      "waste": {
+        "units_prepared": 70590.0,
+        "units_wasted": 6436.0,
+        "cost_wasted": 9549.9,
+        "waste_pct": 9.1,
+        "by_category": {
+          "Bakery": {
+            "prep": 35345.0,
+            "wasted": 3775.0,
+            "cost": 3727.93,
+            "pct": 10.7
+          },
+          "Lunch": {
+            "prep": 25959.0,
+            "wasted": 2101.0,
+            "cost": 4868.58,
+            "pct": 8.1
+          },
+          "Breakfast": {
+            "prep": 9286.0,
+            "wasted": 560.0,
+            "cost": 953.39,
+            "pct": 6.0
+          }
+        }
+      },
+      "staff": {
+        "headcount": 14,
+        "leavers": 9,
+        "starters": 7,
+        "turnover_rate_pct": 64.3,
+        "avg_survey_score": 7.04,
+        "daypart_hours": {
+          "Morning": 6814.000000000001,
+          "Lunch": 4666.700000000001,
+          "Afternoon": 4143.8
+        }
+      },
+      "customer": {
+        "review_count": 200,
+        "avg_rating": 3.96,
+        "rating_counts": [
+          0,
+          6,
+          22,
+          23,
+          71,
+          78
+        ],
+        "complaints": {
+          "quality": 5,
+          "oat_milk": 16,
+          "app_issue": 4
+        }
+      },
+      "footfall": {
+        "annual_door_count": 268533,
+        "conversion_rate_pct": 36.6
+      },
+      "monthly_trend": [
+        {
+          "month": "2025-07",
+          "sales": 58386.46,
+          "expenses": 44612.33,
+          "profit": 13774.13,
+          "margin": 23.6
+        },
+        {
+          "month": "2025-08",
+          "sales": 61184.03,
+          "expenses": 45625.0,
+          "profit": 15559.03,
+          "margin": 25.4
+        },
+        {
+          "month": "2025-09",
+          "sales": 58711.48,
+          "expenses": 49891.8,
+          "profit": 8819.68,
+          "margin": 15.0
+        },
+        {
+          "month": "2025-10",
+          "sales": 65409.73,
+          "expenses": 49486.36,
+          "profit": 15923.37,
+          "margin": 24.3
+        },
+        {
+          "month": "2025-11",
+          "sales": 68367.4,
+          "expenses": 51023.03,
+          "profit": 17344.37,
+          "margin": 25.4
+        },
+        {
+          "month": "2025-12",
+          "sales": 68857.36,
+          "expenses": 53873.21,
+          "profit": 14984.15,
+          "margin": 21.8
+        },
+        {
+          "month": "2026-01",
+          "sales": 56398.32,
+          "expenses": 45133.28,
+          "profit": 11265.04,
+          "margin": 20.0
+        },
+        {
+          "month": "2026-02",
+          "sales": 54140.34,
+          "expenses": 45195.42,
+          "profit": 8944.92,
+          "margin": 16.5
+        },
+        {
+          "month": "2026-03",
+          "sales": 63781.73,
+          "expenses": 51646.91,
+          "profit": 12134.82,
+          "margin": 19.0
+        },
+        {
+          "month": "2026-04",
+          "sales": 65188.28,
+          "expenses": 51480.88,
+          "profit": 13707.4,
+          "margin": 21.0
+        },
+        {
+          "month": "2026-05",
+          "sales": 71615.77,
+          "expenses": 54148.71,
+          "profit": 17467.06,
+          "margin": 24.4
+        },
+        {
+          "month": "2026-06",
+          "sales": 66569.88,
+          "expenses": 53113.15,
+          "profit": 13456.73,
+          "margin": 20.2
+        }
+      ]
+    },
+    {
+      "store_id": "S02",
+      "store_name": "Sheffield Station",
+      "city": "Sheffield",
+      "format": "Kiosk",
+      "location_type": "Transit",
+      "opened_date": "2020-02-03",
+      "sqft": 520,
+      "seats": 8,
+      "rent_gbp_month": 7400.0,
+      "store_manager": "Tom Hollis",
+      "refit_year": "2021.0",
+      "status": "Performing Well",
+      "status_color": "emerald",
+      "sales": {
+        "instore": 518636.18,
+        "app": 78231.95,
+        "delivery": 36617.86,
+        "total": 633485.99
+      },
+      "orders": {
+        "instore": 96465,
+        "app": 14109,
+        "delivery": 2836,
+        "total": 113410
+      },
+      "costs": {
+        "labour": 206019.3,
+        "rent": 88800.0,
+        "rates": 19536.0,
+        "utilities": 6752.49,
+        "repairs": 9186.13,
+        "other_opex": 9262.01,
+        "fixed_total": 133536.63,
+        "cogs_ingredients": 173638.51,
+        "delivery_commission": 10797.5,
+        "delivery_packaging": 1276.2,
+        "delivery_total": 12073.7,
+        "total_expenses": 525268.14
+      },
+      "profit": 108217.85,
+      "margin": 17.08,
+      "waste": {
+        "units_prepared": 77174.0,
+        "units_wasted": 6966.0,
+        "cost_wasted": 10384.16,
+        "waste_pct": 9.0,
+        "by_category": {
+          "Bakery": {
+            "prep": 38721.0,
+            "wasted": 4108.0,
+            "cost": 4077.86,
+            "pct": 10.6
+          },
+          "Lunch": {
+            "prep": 28302.0,
+            "wasted": 2285.0,
+            "cost": 5344.58,
+            "pct": 8.1
+          },
+          "Breakfast": {
+            "prep": 10151.0,
+            "wasted": 573.0,
+            "cost": 961.72,
+            "pct": 5.6
+          }
+        }
+      },
+      "staff": {
+        "headcount": 8,
+        "leavers": 12,
+        "starters": 9,
+        "turnover_rate_pct": 150.0,
+        "avg_survey_score": 7.48,
+        "daypart_hours": {
+          "Morning": 6298.8,
+          "Lunch": 3318.2000000000003,
+          "Afternoon": 4851.6
+        }
+      },
+      "customer": {
+        "review_count": 200,
+        "avg_rating": 4.03,
+        "rating_counts": [
+          0,
+          4,
+          12,
+          33,
+          77,
+          74
+        ],
+        "complaints": {
+          "oat_milk": 11,
+          "app_issue": 4,
+          "quality": 1
+        }
+      },
+      "footfall": {
+        "annual_door_count": 265097,
+        "conversion_rate_pct": 36.4
+      },
+      "monthly_trend": [
+        {
+          "month": "2025-07",
+          "sales": 54396.46,
+          "expenses": 42170.92,
+          "profit": 12225.54,
+          "margin": 22.5
+        },
+        {
+          "month": "2025-08",
+          "sales": 49809.54,
+          "expenses": 41480.23,
+          "profit": 8329.31,
+          "margin": 16.7
+        },
+        {
+          "month": "2025-09",
+          "sales": 53384.57,
+          "expenses": 46437.17,
+          "profit": 6947.4,
+          "margin": 13.0
+        },
+        {
+          "month": "2025-10",
+          "sales": 58712.45,
+          "expenses": 43942.3,
+          "profit": 14770.15,
+          "margin": 25.2
+        },
+        {
+          "month": "2025-11",
+          "sales": 53025.19,
+          "expenses": 42234.66,
+          "profit": 10790.53,
+          "margin": 20.3
+        },
+        {
+          "month": "2025-12",
+          "sales": 55811.22,
+          "expenses": 46134.55,
+          "profit": 9676.67,
+          "margin": 17.3
+        },
+        {
+          "month": "2026-01",
+          "sales": 47323.52,
+          "expenses": 39691.69,
+          "profit": 7631.83,
+          "margin": 16.1
+        },
+        {
+          "month": "2026-02",
+          "sales": 47971.07,
+          "expenses": 40309.59,
+          "profit": 7661.48,
+          "margin": 16.0
+        },
+        {
+          "month": "2026-03",
+          "sales": 52929.01,
+          "expenses": 46369.04,
+          "profit": 6559.97,
+          "margin": 12.4
+        },
+        {
+          "month": "2026-04",
+          "sales": 53307.44,
+          "expenses": 44109.99,
+          "profit": 9197.45,
+          "margin": 17.3
+        },
+        {
+          "month": "2026-05",
+          "sales": 53983.96,
+          "expenses": 44347.08,
+          "profit": 9636.88,
+          "margin": 17.9
+        },
+        {
+          "month": "2026-06",
+          "sales": 52831.56,
+          "expenses": 44645.81,
+          "profit": 8185.75,
+          "margin": 15.5
+        }
+      ]
+    },
+    {
+      "store_id": "S03",
+      "store_name": "Leeds Briggate",
+      "city": "Leeds",
+      "format": "Flagship",
+      "location_type": "High street",
+      "opened_date": "2017-09-01",
+      "sqft": 2100,
+      "seats": 56,
+      "rent_gbp_month": 11800.0,
+      "store_manager": "Grace Okafor",
+      "refit_year": "2024.0",
+      "status": "Middle Performing",
+      "status_color": "amber",
+      "sales": {
+        "instore": 627294.94,
+        "app": 97663.52,
+        "delivery": 155033.78,
+        "total": 879992.24
+      },
+      "orders": {
+        "instore": 113594,
+        "app": 17833,
+        "delivery": 11930,
+        "total": 143357
+      },
+      "costs": {
+        "labour": 258116.91,
+        "rent": 141600.0,
+        "rates": 31152.0,
+        "utilities": 26611.96,
+        "repairs": 7532.57,
+        "other_opex": 9358.98,
+        "fixed_total": 216255.51,
+        "cogs_ingredients": 241205.87,
+        "delivery_commission": 45655.09,
+        "delivery_packaging": 5368.5,
+        "delivery_total": 51023.59,
+        "total_expenses": 766601.88
+      },
+      "profit": 113390.36,
+      "margin": 12.89,
+      "waste": {
+        "units_prepared": 101024.0,
+        "units_wasted": 11116.0,
+        "cost_wasted": 16648.97,
+        "waste_pct": 11.0,
+        "by_category": {
+          "Bakery": {
+            "prep": 50599.0,
+            "wasted": 6545.0,
+            "cost": 6548.77,
+            "pct": 12.9
+          },
+          "Lunch": {
+            "prep": 37158.0,
+            "wasted": 3600.0,
+            "cost": 8465.26,
+            "pct": 9.7
+          },
+          "Breakfast": {
+            "prep": 13267.0,
+            "wasted": 971.0,
+            "cost": 1634.94,
+            "pct": 7.3
+          }
+        }
+      },
+      "staff": {
+        "headcount": 24,
+        "leavers": 6,
+        "starters": 9,
+        "turnover_rate_pct": 25.0,
+        "avg_survey_score": 7.38,
+        "daypart_hours": {
+          "Morning": 7765.9000000000015,
+          "Lunch": 5503.700000000001,
+          "Afternoon": 4586.2
+        }
+      },
+      "customer": {
+        "review_count": 360,
+        "avg_rating": 3.78,
+        "rating_counts": [
+          0,
+          22,
+          28,
+          72,
+          124,
+          114
+        ],
+        "complaints": {
+          "quality": 12,
+          "oat_milk": 24,
+          "app_issue": 10
+        }
+      },
+      "footfall": {
+        "annual_door_count": 311329,
+        "conversion_rate_pct": 36.5
+      },
+      "monthly_trend": [
+        {
+          "month": "2025-07",
+          "sales": 87927.12,
+          "expenses": 68926.6,
+          "profit": 19000.52,
+          "margin": 21.6
+        },
+        {
+          "month": "2025-08",
+          "sales": 90486.08,
+          "expenses": 70218.41,
+          "profit": 20267.67,
+          "margin": 22.4
+        },
+        {
+          "month": "2025-09",
+          "sales": 76034.71,
+          "expenses": 67783.19,
+          "profit": 8251.52,
+          "margin": 10.9
+        },
+        {
+          "month": "2025-10",
+          "sales": 71774.51,
+          "expenses": 59969.46,
+          "profit": 11805.05,
+          "margin": 16.4
+        },
+        {
+          "month": "2025-11",
+          "sales": 73215.62,
+          "expenses": 60627.43,
+          "profit": 12588.19,
+          "margin": 17.2
+        },
+        {
+          "month": "2025-12",
+          "sales": 74737.45,
+          "expenses": 67325.8,
+          "profit": 7411.65,
+          "margin": 9.9
+        },
+        {
+          "month": "2026-01",
+          "sales": 59671.56,
+          "expenses": 55463.63,
+          "profit": 4207.93,
+          "margin": 7.1
+        },
+        {
+          "month": "2026-02",
+          "sales": 58273.48,
+          "expenses": 56018.18,
+          "profit": 2255.3,
+          "margin": 3.9
+        },
+        {
+          "month": "2026-03",
+          "sales": 70647.03,
+          "expenses": 65375.27,
+          "profit": 5271.76,
+          "margin": 7.5
+        },
+        {
+          "month": "2026-04",
+          "sales": 70803.53,
+          "expenses": 62465.83,
+          "profit": 8337.7,
+          "margin": 11.8
+        },
+        {
+          "month": "2026-05",
+          "sales": 73470.1,
+          "expenses": 62707.2,
+          "profit": 10762.9,
+          "margin": 14.6
+        },
+        {
+          "month": "2026-06",
+          "sales": 72951.05,
+          "expenses": 64636.49,
+          "profit": 8314.56,
+          "margin": 11.4
+        }
+      ]
+    },
+    {
+      "store_id": "S04",
+      "store_name": "York Stonegate",
+      "city": "York",
+      "format": "Standard",
+      "location_type": "Tourist",
+      "opened_date": "2019-06-15",
+      "sqft": 1300,
+      "seats": 34,
+      "rent_gbp_month": 7900.0,
+      "store_manager": "Dan Whitby",
+      "refit_year": "Never",
+      "status": "Performing Well",
+      "status_color": "emerald",
+      "sales": {
+        "instore": 638932.66,
+        "app": 97536.23,
+        "delivery": 151828.2,
+        "total": 888297.09
+      },
+      "orders": {
+        "instore": 113775,
+        "app": 17788,
+        "delivery": 11872,
+        "total": 143435
+      },
+      "costs": {
+        "labour": 253272.32,
+        "rent": 94800.0,
+        "rates": 20856.0,
+        "utilities": 16284.24,
+        "repairs": 7992.01,
+        "other_opex": 9557.25,
+        "fixed_total": 149489.5,
+        "cogs_ingredients": 243482.23,
+        "delivery_commission": 44680.03,
+        "delivery_packaging": 5342.4,
+        "delivery_total": 50022.43,
+        "total_expenses": 696266.48
+      },
+      "profit": 192030.61,
+      "margin": 21.62,
+      "waste": {
+        "units_prepared": 72918.0,
+        "units_wasted": 6616.0,
+        "cost_wasted": 9888.26,
+        "waste_pct": 9.1,
+        "by_category": {
+          "Bakery": {
+            "prep": 36501.0,
+            "wasted": 3829.0,
+            "cost": 3785.97,
+            "pct": 10.5
+          },
+          "Lunch": {
+            "prep": 26812.0,
+            "wasted": 2186.0,
+            "cost": 5090.48,
+            "pct": 8.2
+          },
+          "Breakfast": {
+            "prep": 9605.0,
+            "wasted": 601.0,
+            "cost": 1011.81,
+            "pct": 6.3
+          }
+        }
+      },
+      "staff": {
+        "headcount": 16,
+        "leavers": 10,
+        "starters": 10,
+        "turnover_rate_pct": 62.5,
+        "avg_survey_score": 7.11,
+        "daypart_hours": {
+          "Morning": 7812.4,
+          "Lunch": 5797.400000000001,
+          "Afternoon": 4186.700000000001
+        }
+      },
+      "customer": {
+        "review_count": 200,
+        "avg_rating": 3.87,
+        "rating_counts": [
+          0,
+          10,
+          19,
+          33,
+          64,
+          74
+        ],
+        "complaints": {
+          "quality": 1,
+          "oat_milk": 16,
+          "app_issue": 8
+        }
+      },
+      "footfall": {
+        "annual_door_count": 309440,
+        "conversion_rate_pct": 36.8
+      },
+      "monthly_trend": [
+        {
+          "month": "2025-07",
+          "sales": 81229.64,
+          "expenses": 59958.35,
+          "profit": 21271.29,
+          "margin": 26.2
+        },
+        {
+          "month": "2025-08",
+          "sales": 80261.06,
+          "expenses": 58718.18,
+          "profit": 21542.88,
+          "margin": 26.8
+        },
+        {
+          "month": "2025-09",
+          "sales": 68671.66,
+          "expenses": 58305.05,
+          "profit": 10366.61,
+          "margin": 15.1
+        },
+        {
+          "month": "2025-10",
+          "sales": 75035.39,
+          "expenses": 55399.22,
+          "profit": 19636.17,
+          "margin": 26.2
+        },
+        {
+          "month": "2025-11",
+          "sales": 74803.1,
+          "expenses": 56096.25,
+          "profit": 18706.85,
+          "margin": 25.0
+        },
+        {
+          "month": "2025-12",
+          "sales": 88244.16,
+          "expenses": 66775.5,
+          "profit": 21468.66,
+          "margin": 24.3
+        },
+        {
+          "month": "2026-01",
+          "sales": 61171.06,
+          "expenses": 50276.77,
+          "profit": 10894.29,
+          "margin": 17.8
+        },
+        {
+          "month": "2026-02",
+          "sales": 62426.7,
+          "expenses": 50928.56,
+          "profit": 11498.14,
+          "margin": 18.4
+        },
+        {
+          "month": "2026-03",
+          "sales": 73043.18,
+          "expenses": 60031.34,
+          "profit": 13011.84,
+          "margin": 17.8
+        },
+        {
+          "month": "2026-04",
+          "sales": 70428.31,
+          "expenses": 55598.18,
+          "profit": 14830.13,
+          "margin": 21.1
+        },
+        {
+          "month": "2026-05",
+          "sales": 77805.7,
+          "expenses": 59788.78,
+          "profit": 18016.92,
+          "margin": 23.2
+        },
+        {
+          "month": "2026-06",
+          "sales": 75177.13,
+          "expenses": 60004.56,
+          "profit": 15172.57,
+          "margin": 20.2
+        }
+      ]
+    },
+    {
+      "store_id": "S05",
+      "store_name": "Manchester Northern Quarter",
+      "city": "Manchester",
+      "format": "Standard",
+      "location_type": "High street",
+      "opened_date": "2019-11-20",
+      "sqft": 1600,
+      "seats": 44,
+      "rent_gbp_month": 9600.0,
+      "store_manager": "Leah Moran",
+      "refit_year": "2022.0",
+      "status": "Performing Well",
+      "status_color": "emerald",
+      "sales": {
+        "instore": 621417.37,
+        "app": 96443.16,
+        "delivery": 161618.18,
+        "total": 879478.71
+      },
+      "orders": {
+        "instore": 112946,
+        "app": 17931,
+        "delivery": 12736,
+        "total": 143613
+      },
+      "costs": {
+        "labour": 252493.81,
+        "rent": 115200.0,
+        "rates": 25344.0,
+        "utilities": 20465.89,
+        "repairs": 9442.46,
+        "other_opex": 9397.91,
+        "fixed_total": 179850.26,
+        "cogs_ingredients": 241065.11,
+        "delivery_commission": 47503.74,
+        "delivery_packaging": 5731.2,
+        "delivery_total": 53234.94,
+        "total_expenses": 726644.12
+      },
+      "profit": 152834.59,
+      "margin": 17.38,
+      "waste": {
+        "units_prepared": 83806.0,
+        "units_wasted": 7593.0,
+        "cost_wasted": 11262.54,
+        "waste_pct": 9.1,
+        "by_category": {
+          "Bakery": {
+            "prep": 41975.0,
+            "wasted": 4489.0,
+            "cost": 4448.47,
+            "pct": 10.7
+          },
+          "Lunch": {
+            "prep": 30753.0,
+            "wasted": 2429.0,
+            "cost": 5688.99,
+            "pct": 7.9
+          },
+          "Breakfast": {
+            "prep": 11078.0,
+            "wasted": 675.0,
+            "cost": 1125.08,
+            "pct": 6.1
+          }
+        }
+      },
+      "staff": {
+        "headcount": 16,
+        "leavers": 13,
+        "starters": 15,
+        "turnover_rate_pct": 81.2,
+        "avg_survey_score": 7.2,
+        "daypart_hours": {
+          "Morning": 7775.400000000001,
+          "Lunch": 4704.799999999999,
+          "Afternoon": 4690.100000000001
+        }
+      },
+      "customer": {
+        "review_count": 320,
+        "avg_rating": 3.78,
+        "rating_counts": [
+          0,
+          12,
+          37,
+          54,
+          122,
+          95
+        ],
+        "complaints": {
+          "wait_time": 26,
+          "quality": 6,
+          "oat_milk": 28,
+          "app_issue": 10
+        }
+      },
+      "footfall": {
+        "annual_door_count": 304980,
+        "conversion_rate_pct": 37.0
+      },
+      "monthly_trend": [
+        {
+          "month": "2025-07",
+          "sales": 66895.55,
+          "expenses": 55532.73,
+          "profit": 11362.82,
+          "margin": 17.0
+        },
+        {
+          "month": "2025-08",
+          "sales": 70262.73,
+          "expenses": 55773.92,
+          "profit": 14488.81,
+          "margin": 20.6
+        },
+        {
+          "month": "2025-09",
+          "sales": 70752.74,
+          "expenses": 61359.16,
+          "profit": 9393.58,
+          "margin": 13.3
+        },
+        {
+          "month": "2025-10",
+          "sales": 73458.81,
+          "expenses": 58535.13,
+          "profit": 14923.68,
+          "margin": 20.3
+        },
+        {
+          "month": "2025-11",
+          "sales": 81100.14,
+          "expenses": 62643.33,
+          "profit": 18456.81,
+          "margin": 22.8
+        },
+        {
+          "month": "2025-12",
+          "sales": 81929.12,
+          "expenses": 65979.92,
+          "profit": 15949.2,
+          "margin": 19.5
+        },
+        {
+          "month": "2026-01",
+          "sales": 66091.38,
+          "expenses": 55144.79,
+          "profit": 10946.59,
+          "margin": 16.6
+        },
+        {
+          "month": "2026-02",
+          "sales": 64068.68,
+          "expenses": 54077.0,
+          "profit": 9991.68,
+          "margin": 15.6
+        },
+        {
+          "month": "2026-03",
+          "sales": 72291.91,
+          "expenses": 62141.41,
+          "profit": 10150.5,
+          "margin": 14.0
+        },
+        {
+          "month": "2026-04",
+          "sales": 72793.1,
+          "expenses": 60579.99,
+          "profit": 12213.11,
+          "margin": 16.8
+        },
+        {
+          "month": "2026-05",
+          "sales": 81650.09,
+          "expenses": 65387.29,
+          "profit": 16262.8,
+          "margin": 19.9
+        },
+        {
+          "month": "2026-06",
+          "sales": 78184.46,
+          "expenses": 65681.09,
+          "profit": 12503.37,
+          "margin": 16.0
+        }
+      ]
+    },
+    {
+      "store_id": "S06",
+      "store_name": "Manchester Spinningfields",
+      "city": "Manchester",
+      "format": "Standard",
+      "location_type": "Office district",
+      "opened_date": "2021-03-08",
+      "sqft": 1400,
+      "seats": 30,
+      "rent_gbp_month": 12400.0,
+      "store_manager": "Sam Kowalski",
+      "refit_year": "Never",
+      "status": "Middle Performing",
+      "status_color": "amber",
+      "sales": {
+        "instore": 488908.47,
+        "app": 77239.52,
+        "delivery": 138195.56,
+        "total": 704343.55
+      },
+      "orders": {
+        "instore": 87413,
+        "app": 13840,
+        "delivery": 10458,
+        "total": 111711
+      },
+      "costs": {
+        "labour": 189310.44,
+        "rent": 148800.0,
+        "rates": 32736.0,
+        "utilities": 17765.26,
+        "repairs": 7196.03,
+        "other_opex": 9576.79,
+        "fixed_total": 216074.08,
+        "cogs_ingredients": 193060.57,
+        "delivery_commission": 40687.16,
+        "delivery_packaging": 4706.1,
+        "delivery_total": 45393.26,
+        "total_expenses": 643838.34
+      },
+      "profit": 60505.21,
+      "margin": 8.59,
+      "waste": {
+        "units_prepared": 90039.0,
+        "units_wasted": 8132.0,
+        "cost_wasted": 12067.32,
+        "waste_pct": 9.0,
+        "by_category": {
+          "Bakery": {
+            "prep": 45093.0,
+            "wasted": 4784.0,
+            "cost": 4735.49,
+            "pct": 10.6
+          },
+          "Lunch": {
+            "prep": 33002.0,
+            "wasted": 2613.0,
+            "cost": 6105.03,
+            "pct": 7.9
+          },
+          "Breakfast": {
+            "prep": 11944.0,
+            "wasted": 735.0,
+            "cost": 1226.8,
+            "pct": 6.2
+          }
+        }
+      },
+      "staff": {
+        "headcount": 16,
+        "leavers": 13,
+        "starters": 39,
+        "turnover_rate_pct": 81.2,
+        "avg_survey_score": 5.03,
+        "daypart_hours": {
+          "Morning": 6284.199999999998,
+          "Lunch": 3791.0000000000005,
+          "Afternoon": 2794.6000000000004
+        }
+      },
+      "customer": {
+        "review_count": 260,
+        "avg_rating": 3.38,
+        "rating_counts": [
+          0,
+          22,
+          48,
+          51,
+          86,
+          53
+        ],
+        "complaints": {
+          "wait_time": 51,
+          "quality": 5,
+          "oat_milk": 17,
+          "app_issue": 3
+        }
+      },
+      "footfall": {
+        "annual_door_count": 258669,
+        "conversion_rate_pct": 33.8
+      },
+      "monthly_trend": [
+        {
+          "month": "2025-07",
+          "sales": 58815.64,
+          "expenses": 50557.19,
+          "profit": 8258.45,
+          "margin": 14.0
+        },
+        {
+          "month": "2025-08",
+          "sales": 41300.43,
+          "expenses": 43201.81,
+          "profit": -1901.38,
+          "margin": -4.6
+        },
+        {
+          "month": "2025-09",
+          "sales": 62418.27,
+          "expenses": 56780.02,
+          "profit": 5638.25,
+          "margin": 9.0
+        },
+        {
+          "month": "2025-10",
+          "sales": 64620.18,
+          "expenses": 53997.31,
+          "profit": 10622.87,
+          "margin": 16.4
+        },
+        {
+          "month": "2025-11",
+          "sales": 60956.79,
+          "expenses": 54597.16,
+          "profit": 6359.63,
+          "margin": 10.4
+        },
+        {
+          "month": "2025-12",
+          "sales": 59321.33,
+          "expenses": 55514.82,
+          "profit": 3806.51,
+          "margin": 6.4
+        },
+        {
+          "month": "2026-01",
+          "sales": 50913.37,
+          "expenses": 48578.75,
+          "profit": 2334.62,
+          "margin": 4.6
+        },
+        {
+          "month": "2026-02",
+          "sales": 52190.54,
+          "expenses": 49192.2,
+          "profit": 2998.34,
+          "margin": 5.7
+        },
+        {
+          "month": "2026-03",
+          "sales": 64852.2,
+          "expenses": 58556.93,
+          "profit": 6295.27,
+          "margin": 9.7
+        },
+        {
+          "month": "2026-04",
+          "sales": 61635.27,
+          "expenses": 55177.02,
+          "profit": 6458.25,
+          "margin": 10.5
+        },
+        {
+          "month": "2026-05",
+          "sales": 63156.64,
+          "expenses": 55928.83,
+          "profit": 7227.81,
+          "margin": 11.4
+        },
+        {
+          "month": "2026-06",
+          "sales": 64162.89,
+          "expenses": 58613.3,
+          "profit": 5549.59,
+          "margin": 8.6
+        }
+      ]
+    },
+    {
+      "store_id": "S07",
+      "store_name": "Manchester Piccadilly",
+      "city": "Manchester",
+      "format": "Flagship",
+      "location_type": "Transit",
+      "opened_date": "2022-05-16",
+      "sqft": 1900,
+      "seats": 40,
+      "rent_gbp_month": 30500.0,
+      "store_manager": "Ollie Brent",
+      "refit_year": "Never",
+      "status": "Underperforming",
+      "status_color": "rose",
+      "sales": {
+        "instore": 776031.36,
+        "app": 121899.06,
+        "delivery": 212713.19,
+        "total": 1110643.61
+      },
+      "orders": {
+        "instore": 141708,
+        "app": 22545,
+        "delivery": 16599,
+        "total": 180852
+      },
+      "costs": {
+        "labour": 295689.96,
+        "rent": 366000.0,
+        "rates": 80520.0,
+        "utilities": 24330.5,
+        "repairs": 9622.43,
+        "other_opex": 9705.83,
+        "fixed_total": 490178.76,
+        "cogs_ingredients": 304427.41,
+        "delivery_commission": 62575.33,
+        "delivery_packaging": 7469.55,
+        "delivery_total": 70044.88,
+        "total_expenses": 1160341.01
+      },
+      "profit": -49697.4,
+      "margin": -4.47,
+      "waste": {
+        "units_prepared": 120238.0,
+        "units_wasted": 10723.0,
+        "cost_wasted": 16102.37,
+        "waste_pct": 8.9,
+        "by_category": {
+          "Bakery": {
+            "prep": 60120.0,
+            "wasted": 6302.0,
+            "cost": 6330.54,
+            "pct": 10.5
+          },
+          "Lunch": {
+            "prep": 44022.0,
+            "wasted": 3438.0,
+            "cost": 8106.75,
+            "pct": 7.8
+          },
+          "Breakfast": {
+            "prep": 16096.0,
+            "wasted": 983.0,
+            "cost": 1665.08,
+            "pct": 6.1
+          }
+        }
+      },
+      "staff": {
+        "headcount": 24,
+        "leavers": 53,
+        "starters": 30,
+        "turnover_rate_pct": 220.8,
+        "avg_survey_score": 4.96,
+        "daypart_hours": {
+          "Morning": 9641.100000000002,
+          "Lunch": 4735.7,
+          "Afternoon": 5735.299999999998
+        }
+      },
+      "customer": {
+        "review_count": 420,
+        "avg_rating": 3.53,
+        "rating_counts": [
+          0,
+          36,
+          59,
+          79,
+          139,
+          107
+        ],
+        "complaints": {
+          "wait_time": 86,
+          "quality": 10,
+          "oat_milk": 26,
+          "app_issue": 11
+        }
+      },
+      "footfall": {
+        "annual_door_count": 413499,
+        "conversion_rate_pct": 34.3
+      },
+      "monthly_trend": [
+        {
+          "month": "2025-07",
+          "sales": 89938.48,
+          "expenses": 92420.44,
+          "profit": -2481.96,
+          "margin": -2.8
+        },
+        {
+          "month": "2025-08",
+          "sales": 85421.03,
+          "expenses": 90133.29,
+          "profit": -4712.26,
+          "margin": -5.5
+        },
+        {
+          "month": "2025-09",
+          "sales": 87131.6,
+          "expenses": 96098.19,
+          "profit": -8966.59,
+          "margin": -10.3
+        },
+        {
+          "month": "2025-10",
+          "sales": 93849.53,
+          "expenses": 92603.84,
+          "profit": 1245.69,
+          "margin": 1.3
+        },
+        {
+          "month": "2025-11",
+          "sales": 99364.78,
+          "expenses": 96909.29,
+          "profit": 2455.49,
+          "margin": 2.5
+        },
+        {
+          "month": "2025-12",
+          "sales": 103087.06,
+          "expenses": 104957.89,
+          "profit": -1870.83,
+          "margin": -1.8
+        },
+        {
+          "month": "2026-01",
+          "sales": 82694.82,
+          "expenses": 89615.57,
+          "profit": -6920.75,
+          "margin": -8.4
+        },
+        {
+          "month": "2026-02",
+          "sales": 82697.74,
+          "expenses": 90666.19,
+          "profit": -7968.45,
+          "margin": -9.6
+        },
+        {
+          "month": "2026-03",
+          "sales": 91057.29,
+          "expenses": 99168.88,
+          "profit": -8111.59,
+          "margin": -8.9
+        },
+        {
+          "month": "2026-04",
+          "sales": 91475.04,
+          "expenses": 96642.69,
+          "profit": -5167.65,
+          "margin": -5.6
+        },
+        {
+          "month": "2026-05",
+          "sales": 104132.29,
+          "expenses": 103242.58,
+          "profit": 889.71,
+          "margin": 0.9
+        },
+        {
+          "month": "2026-06",
+          "sales": 99793.95,
+          "expenses": 102890.63,
+          "profit": -3096.68,
+          "margin": -3.1
+        }
+      ]
+    },
+    {
+      "store_id": "S08",
+      "store_name": "Nottingham Hockley",
+      "city": "Nottingham",
+      "format": "Standard",
+      "location_type": "High street",
+      "opened_date": "2020-08-24",
+      "sqft": 1350,
+      "seats": 36,
+      "rent_gbp_month": 6800.0,
+      "store_manager": "Fatima Rahman",
+      "refit_year": "2021.0",
+      "status": "Performing Well",
+      "status_color": "emerald",
+      "sales": {
+        "instore": 510047.74,
+        "app": 78508.54,
+        "delivery": 119066.97,
+        "total": 707623.25
+      },
+      "orders": {
+        "instore": 91343,
+        "app": 14502,
+        "delivery": 9417,
+        "total": 115262
+      },
+      "costs": {
+        "labour": 207993.25,
+        "rent": 81600.0,
+        "rates": 17952.0,
+        "utilities": 16760.15,
+        "repairs": 7941.58,
+        "other_opex": 9293.42,
+        "fixed_total": 133547.15,
+        "cogs_ingredients": 193959.53,
+        "delivery_commission": 35070.13,
+        "delivery_packaging": 4237.65,
+        "delivery_total": 39307.78,
+        "total_expenses": 574807.71
+      },
+      "profit": 132815.54,
+      "margin": 18.77,
+      "waste": {
+        "units_prepared": 64257.0,
+        "units_wasted": 5653.0,
+        "cost_wasted": 8515.68,
+        "waste_pct": 8.8,
+        "by_category": {
+          "Bakery": {
+            "prep": 32323.0,
+            "wasted": 3285.0,
+            "cost": 3307.34,
+            "pct": 10.2
+          },
+          "Lunch": {
+            "prep": 23495.0,
+            "wasted": 1869.0,
+            "cost": 4371.54,
+            "pct": 8.0
+          },
+          "Breakfast": {
+            "prep": 8439.0,
+            "wasted": 499.0,
+            "cost": 836.8,
+            "pct": 5.9
+          }
+        }
+      },
+      "staff": {
+        "headcount": 16,
+        "leavers": 13,
+        "starters": 8,
+        "turnover_rate_pct": 81.2,
+        "avg_survey_score": 7.51,
+        "daypart_hours": {
+          "Morning": 6347.799999999999,
+          "Lunch": 4254.9,
+          "Afternoon": 4004.599999999999
+        }
+      },
+      "customer": {
+        "review_count": 200,
+        "avg_rating": 3.91,
+        "rating_counts": [
+          0,
+          8,
+          17,
+          33,
+          69,
+          73
+        ],
+        "complaints": {
+          "oat_milk": 17,
+          "quality": 1,
+          "app_issue": 6
+        }
+      },
+      "footfall": {
+        "annual_door_count": 249367,
+        "conversion_rate_pct": 36.6
+      },
+      "monthly_trend": [
+        {
+          "month": "2025-07",
+          "sales": 56742.1,
+          "expenses": 43945.11,
+          "profit": 12796.99,
+          "margin": 22.6
+        },
+        {
+          "month": "2025-08",
+          "sales": 53788.58,
+          "expenses": 43010.44,
+          "profit": 10778.14,
+          "margin": 20.0
+        },
+        {
+          "month": "2025-09",
+          "sales": 55523.78,
+          "expenses": 49232.73,
+          "profit": 6291.05,
+          "margin": 11.3
+        },
+        {
+          "month": "2025-10",
+          "sales": 60874.64,
+          "expenses": 46493.72,
+          "profit": 14380.92,
+          "margin": 23.6
+        },
+        {
+          "month": "2025-11",
+          "sales": 65575.58,
+          "expenses": 49057.7,
+          "profit": 16517.88,
+          "margin": 25.2
+        },
+        {
+          "month": "2025-12",
+          "sales": 64499.13,
+          "expenses": 52384.9,
+          "profit": 12114.23,
+          "margin": 18.8
+        },
+        {
+          "month": "2026-01",
+          "sales": 54187.05,
+          "expenses": 43800.77,
+          "profit": 10386.28,
+          "margin": 19.2
+        },
+        {
+          "month": "2026-02",
+          "sales": 52415.45,
+          "expenses": 42913.89,
+          "profit": 9501.56,
+          "margin": 18.1
+        },
+        {
+          "month": "2026-03",
+          "sales": 59057.16,
+          "expenses": 50603.6,
+          "profit": 8453.56,
+          "margin": 14.3
+        },
+        {
+          "month": "2026-04",
+          "sales": 61822.34,
+          "expenses": 50227.46,
+          "profit": 11594.88,
+          "margin": 18.8
+        },
+        {
+          "month": "2026-05",
+          "sales": 64422.4,
+          "expenses": 49755.9,
+          "profit": 14666.5,
+          "margin": 22.8
+        },
+        {
+          "month": "2026-06",
+          "sales": 58715.04,
+          "expenses": 49753.79,
+          "profit": 8961.25,
+          "margin": 15.3
+        }
+      ]
+    },
+    {
+      "store_id": "S09",
+      "store_name": "Harrogate James Street",
+      "city": "Harrogate",
+      "format": "Standard",
+      "location_type": "Affluent town",
+      "opened_date": "2021-10-01",
+      "sqft": 1500,
+      "seats": 42,
+      "rent_gbp_month": 7200.0,
+      "store_manager": "Hannah Leigh",
+      "refit_year": "Never",
+      "status": "Middle Performing",
+      "status_color": "amber",
+      "sales": {
+        "instore": 494842.25,
+        "app": 76352.73,
+        "delivery": 121918.22,
+        "total": 693113.2
+      },
+      "orders": {
+        "instore": 88395,
+        "app": 13612,
+        "delivery": 9379,
+        "total": 111386
+      },
+      "costs": {
+        "labour": 228435.67,
+        "rent": 86400.0,
+        "rates": 19008.0,
+        "utilities": 19706.52,
+        "repairs": 7816.22,
+        "other_opex": 9201.81,
+        "fixed_total": 142132.55,
+        "cogs_ingredients": 189982.33,
+        "delivery_commission": 35898.51,
+        "delivery_packaging": 4220.55,
+        "delivery_total": 40119.06,
+        "total_expenses": 600669.6
+      },
+      "profit": 92443.6,
+      "margin": 13.34,
+      "waste": {
+        "units_prepared": 59722.0,
+        "units_wasted": 5354.0,
+        "cost_wasted": 8047.0,
+        "waste_pct": 9.0,
+        "by_category": {
+          "Bakery": {
+            "prep": 29827.0,
+            "wasted": 3107.0,
+            "cost": 3105.84,
+            "pct": 10.4
+          },
+          "Lunch": {
+            "prep": 22086.0,
+            "wasted": 1781.0,
+            "cost": 4154.3,
+            "pct": 8.1
+          },
+          "Breakfast": {
+            "prep": 7809.0,
+            "wasted": 466.0,
+            "cost": 786.86,
+            "pct": 6.0
+          }
+        }
+      },
+      "staff": {
+        "headcount": 14,
+        "leavers": 5,
+        "starters": 8,
+        "turnover_rate_pct": 35.7,
+        "avg_survey_score": 7.39,
+        "daypart_hours": {
+          "Morning": 6863.200000000002,
+          "Lunch": 4798.0,
+          "Afternoon": 4247.9
+        }
+      },
+      "customer": {
+        "review_count": 200,
+        "avg_rating": 3.92,
+        "rating_counts": [
+          0,
+          8,
+          16,
+          28,
+          80,
+          68
+        ],
+        "complaints": {
+          "quality": 6,
+          "oat_milk": 15,
+          "app_issue": 3
+        }
+      },
+      "footfall": {
+        "annual_door_count": 251055,
+        "conversion_rate_pct": 35.2
+      },
+      "monthly_trend": [
+        {
+          "month": "2025-07",
+          "sales": 53475.55,
+          "expenses": 44642.3,
+          "profit": 8833.25,
+          "margin": 16.5
+        },
+        {
+          "month": "2025-08",
+          "sales": 55256.01,
+          "expenses": 45942.78,
+          "profit": 9313.23,
+          "margin": 16.9
+        },
+        {
+          "month": "2025-09",
+          "sales": 54425.24,
+          "expenses": 51434.29,
+          "profit": 2990.95,
+          "margin": 5.5
+        },
+        {
+          "month": "2025-10",
+          "sales": 58693.86,
+          "expenses": 48443.25,
+          "profit": 10250.61,
+          "margin": 17.5
+        },
+        {
+          "month": "2025-11",
+          "sales": 61763.33,
+          "expenses": 49575.39,
+          "profit": 12187.94,
+          "margin": 19.7
+        },
+        {
+          "month": "2025-12",
+          "sales": 64412.9,
+          "expenses": 56352.99,
+          "profit": 8059.91,
+          "margin": 12.5
+        },
+        {
+          "month": "2026-01",
+          "sales": 52062.48,
+          "expenses": 44408.32,
+          "profit": 7654.16,
+          "margin": 14.7
+        },
+        {
+          "month": "2026-02",
+          "sales": 49291.95,
+          "expenses": 44425.38,
+          "profit": 4866.57,
+          "margin": 9.9
+        },
+        {
+          "month": "2026-03",
+          "sales": 61868.05,
+          "expenses": 53818.15,
+          "profit": 8049.9,
+          "margin": 13.0
+        },
+        {
+          "month": "2026-04",
+          "sales": 57717.09,
+          "expenses": 50919.81,
+          "profit": 6797.28,
+          "margin": 11.8
+        },
+        {
+          "month": "2026-05",
+          "sales": 63779.48,
+          "expenses": 53153.69,
+          "profit": 10625.79,
+          "margin": 16.7
+        },
+        {
+          "month": "2026-06",
+          "sales": 60367.26,
+          "expenses": 53668.87,
+          "profit": 6698.39,
+          "margin": 11.1
+        }
+      ]
+    },
+    {
+      "store_id": "S10",
+      "store_name": "Hull Paragon",
+      "city": "Hull",
+      "format": "Standard",
+      "location_type": "High street",
+      "opened_date": "2022-09-12",
+      "sqft": 1400,
+      "seats": 36,
+      "rent_gbp_month": 5400.0,
+      "store_manager": "Marcus Dyer",
+      "refit_year": "Never",
+      "status": "Middle Performing",
+      "status_color": "amber",
+      "sales": {
+        "instore": 381888.63,
+        "app": 61251.49,
+        "delivery": 97345.46,
+        "total": 540485.58
+      },
+      "orders": {
+        "instore": 69557,
+        "app": 10993,
+        "delivery": 7462,
+        "total": 88012
+      },
+      "costs": {
+        "labour": 178208.95,
+        "rent": 64800.0,
+        "rates": 14256.0,
+        "utilities": 21752.88,
+        "repairs": 24197.75,
+        "other_opex": 9267.78,
+        "fixed_total": 134274.41,
+        "cogs_ingredients": 148147.1,
+        "delivery_commission": 28655.09,
+        "delivery_packaging": 3357.9,
+        "delivery_total": 32012.99,
+        "total_expenses": 492643.46
+      },
+      "profit": 47842.12,
+      "margin": 8.85,
+      "waste": {
+        "units_prepared": 53556.0,
+        "units_wasted": 11014.0,
+        "cost_wasted": 16302.68,
+        "waste_pct": 20.6,
+        "by_category": {
+          "Bakery": {
+            "prep": 26922.0,
+            "wasted": 6523.0,
+            "cost": 6443.67,
+            "pct": 24.2
+          },
+          "Lunch": {
+            "prep": 19632.0,
+            "wasted": 3551.0,
+            "cost": 8282.3,
+            "pct": 18.1
+          },
+          "Breakfast": {
+            "prep": 7002.0,
+            "wasted": 940.0,
+            "cost": 1576.71,
+            "pct": 13.4
+          }
+        }
+      },
+      "staff": {
+        "headcount": 16,
+        "leavers": 26,
+        "starters": 33,
+        "turnover_rate_pct": 162.5,
+        "avg_survey_score": 5.38,
+        "daypart_hours": {
+          "Morning": 5082.000000000001,
+          "Lunch": 3525.699999999999,
+          "Afternoon": 4103.6
+        }
+      },
+      "customer": {
+        "review_count": 240,
+        "avg_rating": 3.05,
+        "rating_counts": [
+          0,
+          19,
+          51,
+          84,
+          70,
+          16
+        ],
+        "complaints": {
+          "cleanliness": 22,
+          "quality": 7,
+          "oat_milk": 20,
+          "app_issue": 4
+        }
+      },
+      "footfall": {
+        "annual_door_count": 189635,
+        "conversion_rate_pct": 36.7
+      },
+      "monthly_trend": [
+        {
+          "month": "2025-07",
+          "sales": 46381.89,
+          "expenses": 38183.68,
+          "profit": 8198.21,
+          "margin": 17.7
+        },
+        {
+          "month": "2025-08",
+          "sales": 44219.64,
+          "expenses": 37752.34,
+          "profit": 6467.3,
+          "margin": 14.6
+        },
+        {
+          "month": "2025-09",
+          "sales": 43669.8,
+          "expenses": 42727.15,
+          "profit": 942.65,
+          "margin": 2.2
+        },
+        {
+          "month": "2025-10",
+          "sales": 48377.5,
+          "expenses": 41308.62,
+          "profit": 7068.88,
+          "margin": 14.6
+        },
+        {
+          "month": "2025-11",
+          "sales": 46850.23,
+          "expenses": 41356.83,
+          "profit": 5493.4,
+          "margin": 11.7
+        },
+        {
+          "month": "2025-12",
+          "sales": 48419.64,
+          "expenses": 43553.69,
+          "profit": 4865.95,
+          "margin": 10.0
+        },
+        {
+          "month": "2026-01",
+          "sales": 41363.26,
+          "expenses": 40077.53,
+          "profit": 1285.73,
+          "margin": 3.1
+        },
+        {
+          "month": "2026-02",
+          "sales": 37970.2,
+          "expenses": 36363.57,
+          "profit": 1606.63,
+          "margin": 4.2
+        },
+        {
+          "month": "2026-03",
+          "sales": 44178.26,
+          "expenses": 41811.15,
+          "profit": 2367.11,
+          "margin": 5.4
+        },
+        {
+          "month": "2026-04",
+          "sales": 44940.14,
+          "expenses": 41647.89,
+          "profit": 3292.25,
+          "margin": 7.3
+        },
+        {
+          "month": "2026-05",
+          "sales": 47229.67,
+          "expenses": 41725.51,
+          "profit": 5504.16,
+          "margin": 11.7
+        },
+        {
+          "month": "2026-06",
+          "sales": 46885.35,
+          "expenses": 43065.6,
+          "profit": 3819.75,
+          "margin": 8.1
+        }
+      ]
+    },
+    {
+      "store_id": "S11",
+      "store_name": "Sheffield Uni Campus",
+      "city": "Sheffield",
+      "format": "Kiosk",
+      "location_type": "Campus",
+      "opened_date": "2023-01-16",
+      "sqft": 700,
+      "seats": 20,
+      "rent_gbp_month": 4800.0,
+      "store_manager": "Jess Arkwright",
+      "refit_year": "Never",
+      "status": "Middle Performing",
+      "status_color": "amber",
+      "sales": {
+        "instore": 268611.68,
+        "app": 70978.44,
+        "delivery": 22322.59,
+        "total": 361912.71
+      },
+      "orders": {
+        "instore": 52580,
+        "app": 12643,
+        "delivery": 1744,
+        "total": 66967
+      },
+      "costs": {
+        "labour": 129258.35,
+        "rent": 57600.0,
+        "rates": 12672.0,
+        "utilities": 8897.72,
+        "repairs": 6982.44,
+        "other_opex": 9167.92,
+        "fixed_total": 95320.08,
+        "cogs_ingredients": 99200.27,
+        "delivery_commission": 6581.8,
+        "delivery_packaging": 784.8,
+        "delivery_total": 7366.6,
+        "total_expenses": 331145.31
+      },
+      "profit": 30767.4,
+      "margin": 8.5,
+      "waste": {
+        "units_prepared": 53812.0,
+        "units_wasted": 5472.0,
+        "cost_wasted": 8163.1,
+        "waste_pct": 10.2,
+        "by_category": {
+          "Bakery": {
+            "prep": 27002.0,
+            "wasted": 3212.0,
+            "cost": 3184.4,
+            "pct": 11.9
+          },
+          "Lunch": {
+            "prep": 19708.0,
+            "wasted": 1788.0,
+            "cost": 4181.91,
+            "pct": 9.1
+          },
+          "Breakfast": {
+            "prep": 7102.0,
+            "wasted": 472.0,
+            "cost": 796.79,
+            "pct": 6.6
+          }
+        }
+      },
+      "staff": {
+        "headcount": 8,
+        "leavers": 6,
+        "starters": 13,
+        "turnover_rate_pct": 75.0,
+        "avg_survey_score": 7.29,
+        "daypart_hours": {
+          "Morning": 3965.3,
+          "Lunch": 3067.4000000000005,
+          "Afternoon": 2177.1
+        }
+      },
+      "customer": {
+        "review_count": 125,
+        "avg_rating": 3.88,
+        "rating_counts": [
+          0,
+          4,
+          15,
+          15,
+          49,
+          42
+        ],
+        "complaints": {
+          "oat_milk": 10,
+          "app_issue": 3,
+          "quality": 2
+        }
+      },
+      "footfall": {
+        "annual_door_count": 143259,
+        "conversion_rate_pct": 36.7
+      },
+      "monthly_trend": [
+        {
+          "month": "2025-07",
+          "sales": 13472.15,
+          "expenses": 17781.04,
+          "profit": -4308.89,
+          "margin": -32.0
+        },
+        {
+          "month": "2025-08",
+          "sales": 12795.98,
+          "expenses": 16868.19,
+          "profit": -4072.21,
+          "margin": -31.8
+        },
+        {
+          "month": "2025-09",
+          "sales": 22045.4,
+          "expenses": 24137.26,
+          "profit": -2091.86,
+          "margin": -9.5
+        },
+        {
+          "month": "2025-10",
+          "sales": 45868.9,
+          "expenses": 34298.37,
+          "profit": 11570.53,
+          "margin": 25.2
+        },
+        {
+          "month": "2025-11",
+          "sales": 46153.4,
+          "expenses": 35298.77,
+          "profit": 10854.63,
+          "margin": 23.5
+        },
+        {
+          "month": "2025-12",
+          "sales": 30000.57,
+          "expenses": 27557.81,
+          "profit": 2442.76,
+          "margin": 8.1
+        },
+        {
+          "month": "2026-01",
+          "sales": 28733.64,
+          "expenses": 26788.54,
+          "profit": 1945.1,
+          "margin": 6.8
+        },
+        {
+          "month": "2026-02",
+          "sales": 30148.99,
+          "expenses": 27275.8,
+          "profit": 2873.19,
+          "margin": 9.5
+        },
+        {
+          "month": "2026-03",
+          "sales": 40614.5,
+          "expenses": 34120.96,
+          "profit": 6493.54,
+          "margin": 16.0
+        },
+        {
+          "month": "2026-04",
+          "sales": 23430.34,
+          "expenses": 24793.17,
+          "profit": -1362.83,
+          "margin": -5.8
+        },
+        {
+          "month": "2026-05",
+          "sales": 42616.54,
+          "expenses": 35147.76,
+          "profit": 7468.78,
+          "margin": 17.5
+        },
+        {
+          "month": "2026-06",
+          "sales": 26032.3,
+          "expenses": 25928.35,
+          "profit": 103.95,
+          "margin": 0.4
+        }
+      ]
+    },
+    {
+      "store_id": "S12",
+      "store_name": "Leeds Trinity",
+      "city": "Leeds",
+      "format": "Standard",
+      "location_type": "High street",
+      "opened_date": "2025-09-15",
+      "sqft": 1500,
+      "seats": 40,
+      "rent_gbp_month": 10900.0,
+      "store_manager": "Kieran Yau",
+      "refit_year": "Never",
+      "status": "Underperforming",
+      "status_color": "rose",
+      "sales": {
+        "instore": 360491.51,
+        "app": 52018.65,
+        "delivery": 86195.62,
+        "total": 498705.78
+      },
+      "orders": {
+        "instore": 64397,
+        "app": 9720,
+        "delivery": 6914,
+        "total": 81031
+      },
+      "costs": {
+        "labour": 152836.96,
+        "rent": 103550.0,
+        "rates": 22781.0,
+        "utilities": 15964.32,
+        "repairs": 5745.16,
+        "other_opex": 7697.22,
+        "fixed_total": 155737.7,
+        "cogs_ingredients": 136695.25,
+        "delivery_commission": 25363.32,
+        "delivery_packaging": 3111.3,
+        "delivery_total": 28474.62,
+        "total_expenses": 473744.53
+      },
+      "profit": 24961.25,
+      "margin": 5.01,
+      "waste": {
+        "units_prepared": 51071.0,
+        "units_wasted": 4624.0,
+        "cost_wasted": 6882.93,
+        "waste_pct": 9.1,
+        "by_category": {
+          "Bakery": {
+            "prep": 25684.0,
+            "wasted": 2693.0,
+            "cost": 2670.49,
+            "pct": 10.5
+          },
+          "Lunch": {
+            "prep": 18666.0,
+            "wasted": 1507.0,
+            "cost": 3502.34,
+            "pct": 8.1
+          },
+          "Breakfast": {
+            "prep": 6721.0,
+            "wasted": 424.0,
+            "cost": 710.1,
+            "pct": 6.3
+          }
+        }
+      },
+      "staff": {
+        "headcount": 15,
+        "leavers": 5,
+        "starters": 8,
+        "turnover_rate_pct": 33.3,
+        "avg_survey_score": 7.29,
+        "daypart_hours": {
+          "Morning": 4576.700000000001,
+          "Lunch": 3228.2999999999997,
+          "Afternoon": 2693.9000000000005
+        }
+      },
+      "customer": {
+        "review_count": 230,
+        "avg_rating": 3.81,
+        "rating_counts": [
+          0,
+          13,
+          22,
+          41,
+          73,
+          81
+        ],
+        "complaints": {
+          "quality": 7,
+          "oat_milk": 25,
+          "app_issue": 1
+        }
+      },
+      "footfall": {
+        "annual_door_count": 175957,
+        "conversion_rate_pct": 36.6
+      },
+      "monthly_trend": [
+        {
+          "month": "2025-07",
+          "sales": 0.0,
+          "expenses": 259.27,
+          "profit": -259.27,
+          "margin": 0
+        },
+        {
+          "month": "2025-08",
+          "sales": 0.0,
+          "expenses": 259.27,
+          "profit": -259.27,
+          "margin": 0
+        },
+        {
+          "month": "2025-09",
+          "sales": 17625.65,
+          "expenses": 22969.54,
+          "profit": -5343.89,
+          "margin": -30.3
+        },
+        {
+          "month": "2025-10",
+          "sales": 38593.88,
+          "expenses": 39651.28,
+          "profit": -1057.4,
+          "margin": -2.7
+        },
+        {
+          "month": "2025-11",
+          "sales": 46941.2,
+          "expenses": 45847.4,
+          "profit": 1093.8,
+          "margin": 2.3
+        },
+        {
+          "month": "2025-12",
+          "sales": 57077.83,
+          "expenses": 53810.52,
+          "profit": 3267.31,
+          "margin": 5.7
+        },
+        {
+          "month": "2026-01",
+          "sales": 49013.19,
+          "expenses": 47404.76,
+          "profit": 1608.43,
+          "margin": 3.3
+        },
+        {
+          "month": "2026-02",
+          "sales": 50992.43,
+          "expenses": 48381.6,
+          "profit": 2610.83,
+          "margin": 5.1
+        },
+        {
+          "month": "2026-03",
+          "sales": 56613.93,
+          "expenses": 52843.52,
+          "profit": 3770.41,
+          "margin": 6.7
+        },
+        {
+          "month": "2026-04",
+          "sales": 57219.91,
+          "expenses": 52339.19,
+          "profit": 4880.72,
+          "margin": 8.5
+        },
+        {
+          "month": "2026-05",
+          "sales": 65780.93,
+          "expenses": 55466.01,
+          "profit": 10314.92,
+          "margin": 15.7
+        },
+        {
+          "month": "2026-06",
+          "sales": 58846.83,
+          "expenses": 54512.14,
+          "profit": 4334.69,
+          "margin": 7.4
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "P01",
+      "name": "Espresso",
+      "category": "Coffee",
+      "menu_price": 2.4,
+      "cost": 0.4,
+      "delivery_price": 2.75,
+      "margin_gbp": 2.0,
+      "margin_pct": 83.3
+    },
+    {
+      "id": "P02",
+      "name": "Americano",
+      "category": "Coffee",
+      "menu_price": 3.0,
+      "cost": 0.48,
+      "delivery_price": 3.45,
+      "margin_gbp": 2.52,
+      "margin_pct": 84.0
+    },
+    {
+      "id": "P03",
+      "name": "Latte",
+      "category": "Coffee",
+      "menu_price": 3.6,
+      "cost": 0.78,
+      "delivery_price": 4.15,
+      "margin_gbp": 2.8200000000000003,
+      "margin_pct": 78.3
+    },
+    {
+      "id": "P04",
+      "name": "Flat White",
+      "category": "Coffee",
+      "menu_price": 3.5,
+      "cost": 0.75,
+      "delivery_price": 4.0,
+      "margin_gbp": 2.75,
+      "margin_pct": 78.6
+    },
+    {
+      "id": "P05",
+      "name": "Cappuccino",
+      "category": "Coffee",
+      "menu_price": 3.5,
+      "cost": 0.72,
+      "delivery_price": 4.0,
+      "margin_gbp": 2.7800000000000002,
+      "margin_pct": 79.4
+    },
+    {
+      "id": "P06",
+      "name": "Cortado",
+      "category": "Coffee",
+      "menu_price": 3.1,
+      "cost": 0.6,
+      "delivery_price": 3.5500000000000003,
+      "margin_gbp": 2.5,
+      "margin_pct": 80.6
+    },
+    {
+      "id": "P07",
+      "name": "Mocha",
+      "category": "Coffee",
+      "menu_price": 3.9,
+      "cost": 0.98,
+      "delivery_price": 4.5,
+      "margin_gbp": 2.92,
+      "margin_pct": 74.9
+    },
+    {
+      "id": "P08",
+      "name": "Iced Latte",
+      "category": "Cold Drinks",
+      "menu_price": 3.9,
+      "cost": 0.88,
+      "delivery_price": 4.5,
+      "margin_gbp": 3.02,
+      "margin_pct": 77.4
+    },
+    {
+      "id": "P09",
+      "name": "Iced Americano",
+      "category": "Cold Drinks",
+      "menu_price": 3.4,
+      "cost": 0.52,
+      "delivery_price": 3.9000000000000004,
+      "margin_gbp": 2.88,
+      "margin_pct": 84.7
+    },
+    {
+      "id": "P10",
+      "name": "Chai Latte",
+      "category": "Tea & Other",
+      "menu_price": 3.6,
+      "cost": 0.82,
+      "delivery_price": 4.15,
+      "margin_gbp": 2.7800000000000002,
+      "margin_pct": 77.2
+    },
+    {
+      "id": "P11",
+      "name": "Hot Chocolate",
+      "category": "Tea & Other",
+      "menu_price": 3.5,
+      "cost": 0.9,
+      "delivery_price": 4.0,
+      "margin_gbp": 2.6,
+      "margin_pct": 74.3
+    },
+    {
+      "id": "P12",
+      "name": "English Breakfast Tea",
+      "category": "Tea & Other",
+      "menu_price": 2.6,
+      "cost": 0.22,
+      "delivery_price": 3.0,
+      "margin_gbp": 2.38,
+      "margin_pct": 91.5
+    },
+    {
+      "id": "P13",
+      "name": "Matcha Latte",
+      "category": "Tea & Other",
+      "menu_price": 3.95,
+      "cost": 1.19,
+      "delivery_price": 4.55,
+      "margin_gbp": 2.7600000000000002,
+      "margin_pct": 69.9
+    },
+    {
+      "id": "P14",
+      "name": "Fresh Orange Juice",
+      "category": "Cold Drinks",
+      "menu_price": 3.2,
+      "cost": 1.31,
+      "delivery_price": 3.7,
+      "margin_gbp": 1.8900000000000001,
+      "margin_pct": 59.1
+    },
+    {
+      "id": "P15",
+      "name": "Sparkling Water",
+      "category": "Cold Drinks",
+      "menu_price": 1.9,
+      "cost": 0.56,
+      "delivery_price": 2.2,
+      "margin_gbp": 1.3399999999999999,
+      "margin_pct": 70.5
+    },
+    {
+      "id": "P16",
+      "name": "Butter Croissant",
+      "category": "Bakery",
+      "menu_price": 2.6,
+      "cost": 0.88,
+      "delivery_price": 3.0,
+      "margin_gbp": 1.7200000000000002,
+      "margin_pct": 66.2
+    },
+    {
+      "id": "P17",
+      "name": "Pain au Chocolat",
+      "category": "Bakery",
+      "menu_price": 2.9,
+      "cost": 1.02,
+      "delivery_price": 3.35,
+      "margin_gbp": 1.88,
+      "margin_pct": 64.8
+    },
+    {
+      "id": "P18",
+      "name": "Cinnamon Bun",
+      "category": "Bakery",
+      "menu_price": 3.4,
+      "cost": 1.1,
+      "delivery_price": 3.9000000000000004,
+      "margin_gbp": 2.3,
+      "margin_pct": 67.6
+    },
+    {
+      "id": "P19",
+      "name": "Banana Bread",
+      "category": "Bakery",
+      "menu_price": 3.1,
+      "cost": 0.92,
+      "delivery_price": 3.5500000000000003,
+      "margin_gbp": 2.18,
+      "margin_pct": 70.3
+    },
+    {
+      "id": "P20",
+      "name": "Chocolate Brownie",
+      "category": "Bakery",
+      "menu_price": 3.0,
+      "cost": 1.0,
+      "delivery_price": 3.45,
+      "margin_gbp": 2.0,
+      "margin_pct": 66.7
+    },
+    {
+      "id": "P21",
+      "name": "Oat & Raisin Cookie",
+      "category": "Bakery",
+      "menu_price": 2.2,
+      "cost": 0.58,
+      "delivery_price": 2.5500000000000003,
+      "margin_gbp": 1.62,
+      "margin_pct": 73.6
+    },
+    {
+      "id": "P22",
+      "name": "Almond Croissant",
+      "category": "Bakery",
+      "menu_price": 3.6,
+      "cost": 1.38,
+      "delivery_price": 4.15,
+      "margin_gbp": 2.22,
+      "margin_pct": 61.7
+    },
+    {
+      "id": "P23",
+      "name": "Bacon Breakfast Bap",
+      "category": "Breakfast",
+      "menu_price": 4.8,
+      "cost": 1.94,
+      "delivery_price": 5.5,
+      "margin_gbp": 2.86,
+      "margin_pct": 59.6
+    },
+    {
+      "id": "P24",
+      "name": "Vegan Breakfast Bap",
+      "category": "Breakfast",
+      "menu_price": 4.8,
+      "cost": 1.75,
+      "delivery_price": 5.5,
+      "margin_gbp": 3.05,
+      "margin_pct": 63.5
+    },
+    {
+      "id": "P25",
+      "name": "Overnight Oats",
+      "category": "Breakfast",
+      "menu_price": 3.95,
+      "cost": 1.31,
+      "delivery_price": 4.55,
+      "margin_gbp": 2.64,
+      "margin_pct": 66.8
+    },
+    {
+      "id": "P26",
+      "name": "Ham & Cheese Toastie",
+      "category": "Lunch",
+      "menu_price": 5.6,
+      "cost": 2.19,
+      "delivery_price": 6.45,
+      "margin_gbp": 3.4099999999999997,
+      "margin_pct": 60.9
+    },
+    {
+      "id": "P27",
+      "name": "Three Cheese Toastie",
+      "category": "Lunch",
+      "menu_price": 5.4,
+      "cost": 2.0,
+      "delivery_price": 6.2,
+      "margin_gbp": 3.4000000000000004,
+      "margin_pct": 63.0
+    },
+    {
+      "id": "P28",
+      "name": "Chicken Pesto Sandwich",
+      "category": "Lunch",
+      "menu_price": 5.95,
+      "cost": 2.62,
+      "delivery_price": 6.8500000000000005,
+      "margin_gbp": 3.33,
+      "margin_pct": 56.0
+    },
+    {
+      "id": "P29",
+      "name": "Falafel Wrap",
+      "category": "Lunch",
+      "menu_price": 5.75,
+      "cost": 2.31,
+      "delivery_price": 6.6000000000000005,
+      "margin_gbp": 3.44,
+      "margin_pct": 59.8
+    },
+    {
+      "id": "P30",
+      "name": "Tomato Soup & Bread",
+      "category": "Lunch",
+      "menu_price": 4.95,
+      "cost": 1.5,
+      "delivery_price": 5.7,
+      "margin_gbp": 3.45,
+      "margin_pct": 69.7
+    },
+    {
+      "id": "P31",
+      "name": "Superfood Salad Bowl",
+      "category": "Lunch",
+      "menu_price": 6.75,
+      "cost": 3.25,
+      "delivery_price": 7.75,
+      "margin_gbp": 3.5,
+      "margin_pct": 51.9
+    },
+    {
+      "id": "P32",
+      "name": "Crisps",
+      "category": "Snacks",
+      "menu_price": 1.3,
+      "cost": 0.52,
+      "delivery_price": 1.5,
+      "margin_gbp": 0.78,
+      "margin_pct": 60.0
+    },
+    {
+      "id": "P33",
+      "name": "Fruit Pot",
+      "category": "Snacks",
+      "menu_price": 2.5,
+      "cost": 1.19,
+      "delivery_price": 2.9000000000000004,
+      "margin_gbp": 1.31,
+      "margin_pct": 52.4
+    },
+    {
+      "id": "P34",
+      "name": "House Blend Beans 250g",
+      "category": "Retail",
+      "menu_price": 9.5,
+      "cost": 4.75,
+      "delivery_price": 10.9,
+      "margin_gbp": 4.75,
+      "margin_pct": 50.0
+    },
+    {
+      "id": "P35",
+      "name": "Reusable Cup",
+      "category": "Retail",
+      "menu_price": 12.0,
+      "cost": 5.12,
+      "delivery_price": 13.8,
+      "margin_gbp": 6.88,
+      "margin_pct": 57.3
+    },
+    {
+      "id": "P36",
+      "name": "Gingerbread Latte",
+      "category": "Seasonal",
+      "menu_price": 4.2,
+      "cost": 1.0,
+      "delivery_price": 4.8500000000000005,
+      "margin_gbp": 3.2,
+      "margin_pct": 76.2
+    },
+    {
+      "id": "P37",
+      "name": "Mince Pie",
+      "category": "Seasonal",
+      "menu_price": 2.4,
+      "cost": 0.78,
+      "delivery_price": 2.75,
+      "margin_gbp": 1.6199999999999999,
+      "margin_pct": 67.5
+    },
+    {
+      "id": "P38",
+      "name": "Pumpkin Spice Latte",
+      "category": "Seasonal",
+      "menu_price": 4.1,
+      "cost": 0.98,
+      "delivery_price": 4.7,
+      "margin_gbp": 3.1199999999999997,
+      "margin_pct": 76.1
+    }
+  ]
+}
